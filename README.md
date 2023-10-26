@@ -83,3 +83,16 @@
 Для выполнения отчета создается ветка record с помощью команды `git branch record`
 
 ![](https://github.com/Kseniadyo12/LR6/blob/record/Screenshots/19.png)
+
+`git log --date=format:'%D' --pretty=format:"%h - %cd, %cn : %s"` позволяет вывести историю операций в форматированном виде, где
+
+`%h` - сокращенный хэш коммита
+
+`%cd` - дата коммита
+
+`%cn` - имя коммитера
+
+`%s` - содержание
+
+![](https://github.com/Kseniadyo12/LR6/blob/record/Screenshots/20.png)
+
